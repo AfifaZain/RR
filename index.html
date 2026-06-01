@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Md. Rohanur Rahman, an AI and machine learning researcher with a CSE background from North South University."
+    />
+    <title>Md. Rohanur Rahman | AI & Machine Learning Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three.module.js"
+        }
+      }
+    </script>
+    <script type="module" src="./scripts/scene.js"></script>
+    <script src="./scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">RR</span>
+        <span class="brand-text">Md. Rohanur Rahman</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#documents">Docs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section-band">
+        <canvas id="hero-scene" aria-hidden="true"></canvas>
+        <div class="scene-fallback" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">AI research · machine learning · networked systems</p>
+          <h1>Md. Rohanur Rahman</h1>
+          <p class="hero-copy">
+            I build research and engineering work around explainable AI, medical deep learning,
+            data mining, and practical networking systems.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#research">View Research</a>
+            <a class="button button-secondary" href="mailto:rohanur.rahman@northsouth.edu">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-status" aria-label="Portfolio highlights">
+          <div>
+            <span>2</span>
+            <small>Publications</small>
+          </div>
+          <div>
+            <span>3</span>
+            <small>Citations</small>
+          </div>
+          <div>
+            <span>1</span>
+            <small>h-index</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-band reveal">
+        <div class="section-shell about-grid">
+          <figure class="portrait-wrap">
+            <img src="./assets/profile.jpeg" alt="Portrait of Md. Rohanur Rahman" />
+          </figure>
+          <div class="section-copy">
+            <p class="section-kicker">About</p>
+            <h2>Research-minded engineer focused on useful AI systems.</h2>
+            <p>
+              I am a Computer Science and Engineering graduate from North South University with
+              interests in networking, machine learning, AI engineering, data mining, and natural
+              language technologies. My work combines model development with applied problem
+              solving, from CNN-based medical prediction to explainable AI for health-awareness
+              research.
+            </p>
+            <div class="profile-links" aria-label="Academic and professional profiles">
+              <a href="https://github.com/MdRohanurRahman" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/md-rohanur-rahman" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://scholar.google.com/citations?user=KBtvatUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+              <a href="https://orcid.org/0009-0007-6870-2948" target="_blank" rel="noreferrer">ORCID</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="research section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Research</p>
+            <h2>Published work in explainable AI and medical deep learning.</h2>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication">
+              <div class="pub-year">2025</div>
+              <div>
+                <h3>Predicting Adolescent Concern Over Unhealthy Food Ads Using Explainable AI</h3>
+                <p>MFS Titu, MR Rahman, AZ Apurba, MA Qayum, R Khan</p>
+                <p class="pub-venue">IEEE Access · cited by 2</p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="pub-year">2024</div>
+              <div>
+                <h3>Kidney Cancerous Tumor Prediction using CNN System Architecture</h3>
+                <p>MFS Titu, MHM Emon, SA Aumi, MS Bhuiyan, MR Rahman, MF Murshid</p>
+                <p class="pub-venue">Asian Journal of Medical Technology, 4(1), 57-70 · cited by 1</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Selected Work</p>
+            <h2>Projects shaped by research, systems thinking, and applied engineering.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-type">Explainable AI</p>
+              <h3>Health Awareness Prediction</h3>
+              <p>
+                Built a stacking ensemble model to analyze concern over unhealthy food advertising,
+                reaching 94% accuracy with explainable AI methods.
+              </p>
+              <ul>
+                <li>Machine learning</li>
+                <li>Explainability</li>
+                <li>Health data analysis</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type">Medical AI</p>
+              <h3>Kidney Tumor CNN Architecture</h3>
+              <p>
+                Designed and trained a CNN-based prediction system, using preprocessing and model
+                optimization to improve medical image classification.
+              </p>
+              <ul>
+                <li>CNN</li>
+                <li>Image preprocessing</li>
+                <li>Model training</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type">Networking</p>
+              <h3>Cisco Network Transformation</h3>
+              <p>
+                Developed subnetworks and configured network services including DHCP, DNS, HTTP,
+                FTP, EIGRP, and OSPF while troubleshooting connectivity.
+              </p>
+              <ul>
+                <li>EIGRP</li>
+                <li>OSPF</li>
+                <li>Server configuration</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type">Web Platform</p>
+              <h3>Rent NSU Platform</h3>
+              <p>
+                Designed a Django-based platform for NSU students to share equipment, with secure
+                backend functionality and a practical student-centered workflow.
+              </p>
+              <ul>
+                <li>Django</li>
+                <li>HTML/CSS/JS</li>
+                <li>Backend design</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Experience</p>
+            <h2>Hands-on operational work with inventory, orders, and shipment flow.</h2>
+          </div>
+
+          <article class="experience-item">
+            <div class="experience-date">
+              <span>2025</span>
+              <small>Started 28 November 2025</small>
+            </div>
+            <div class="experience-body">
+              <p class="project-type">Uttara 18, RUAP</p>
+              <h3>Warehouse Management & Order Processing</h3>
+              <p>
+                Managed warehouse workflow support, received customer orders, processed orders,
+                and handled shipment receiving tasks for day-to-day operations.
+              </p>
+              <a href="https://www.facebook.com/share/1GEyQjQp5K/" target="_blank" rel="noreferrer">
+                Website / platform
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Skills</p>
+            <h2>Technical range across AI, networking, web systems, and communication.</h2>
+          </div>
+
+          <div class="skill-grid">
+            <section class="skill-group">
+              <h3>AI & Data</h3>
+              <p>Machine Learning, Artificial Intelligence, CNN, Explainable AI, Data Mining, Natural Language</p>
+            </section>
+            <section class="skill-group">
+              <h3>Networking</h3>
+              <p>EIGRP, OSPF, subnetting, DHCP, DNS, HTTP, FTP, connectivity troubleshooting</p>
+            </section>
+            <section class="skill-group">
+              <h3>Development Tools</h3>
+              <p>Django, HTML, CSS, JavaScript, VS Code, Jupyter Notebook, Power BI, MS Word, PowerPoint</p>
+            </section>
+            <section class="skill-group">
+              <h3>Professional</h3>
+              <p>Written communication, verbal communication, presentation, teamwork, leadership, project management, problem solving</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="education section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Education</p>
+            <h2>Academic foundation in computer science and engineering.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span>2024</span>
+              <div>
+                <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                <p>North South University · CGPA 2.89</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span>2017</span>
+              <div>
+                <h3>Higher Secondary Certificate</h3>
+                <p>Kushtia Government College, Kushtia · GPA 4.58</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span>2015</span>
+              <div>
+                <h3>Secondary School Certificate</h3>
+                <p>Police Line's School & College, Kushtia · GPA 5.00</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="documents" class="documents section-band reveal">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Reviewer Documents</p>
+            <h2>Downloadable academic and career documents.</h2>
+          </div>
+
+          <div class="document-grid">
+            <a class="document-link" href="./assets/documents/Md_Rohanur_Rahman_CV.pdf" download>
+              <span>CV</span>
+              <strong>Md. Rohanur Rahman CV</strong>
+              <small>PDF · downloadable</small>
+            </a>
+            <a class="document-link" href="./assets/documents/Md_Rohanur_Rahman_HSC_Certificate.pdf" download>
+              <span>HSC</span>
+              <strong>Higher Secondary Certificate</strong>
+              <small>PDF · downloadable</small>
+            </a>
+            <a class="document-link" href="./assets/documents/Md_Rohanur_Rahman_SSC_Certificate.pdf" download>
+              <span>SSC</span>
+              <strong>Secondary School Certificate</strong>
+              <small>PDF · downloadable</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-band reveal">
+        <div class="section-shell contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Open to research, engineering, and collaboration opportunities.</h2>
+          </div>
+          <div class="contact-panel">
+            <a href="mailto:rohanur.rahman@northsouth.edu">rohanur.rahman@northsouth.edu</a>
+            <a href="mailto:rohanur.rahman94@gmail.com">rohanur.rahman94@gmail.com</a>
+            <a href="https://github.com/MdRohanurRahman" target="_blank" rel="noreferrer">github.com/MdRohanurRahman</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Md. Rohanur Rahman</p>
+      <a href="#home">Back to top</a>
+    </footer>
+  </body>
+</html>
